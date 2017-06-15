@@ -1,0 +1,16 @@
+
+body, h1 {
+	color: #FF530D;
+	text-align: center;
+	background: url("images/emberhelp.jpg");
+	background-size: cover;
+	font-family: Helvetica;
+}
+
+ul {
+    text-align: left;
+}
+
+#slogan {
+	font-style: italic;
+}
