@@ -3,7 +3,7 @@ body, h1 {
 	color: #FF530D;
 	text-align: center;
 	background: url("images/emberhelp.jpg");
-	background-size: cover;
+	background-image: cover;
 	font-family: Helvetica;
 }
 
@@ -13,4 +13,8 @@ ul {
 
 #slogan {
 	font-style: italic;
+}
+
+img {
+	width: 100%;
 }
