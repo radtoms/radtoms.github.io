@@ -1,0 +1,30 @@
+
+@import url('https://fonts.googleapis.com/css?family=Raleway|Slabo+27px|Ubuntu');
+
+
+body, h1 {
+	color: #FF530D;
+	text-align: center;
+	background: "images/emberhelp.jpg";
+	font-family: 'Ubuntu';
+}
+
+p{
+	text-align: left;
+	font-family: 'Slabo';
+}
+
+ul {
+    text-align: left;
+    font-family: 'Slabo';
+}
+
+#slogan {
+	font-style: italic;
+	text-align: center;
+	font-family: 'Ubuntu';
+}
+
+img {
+	width: 70%;
+}
