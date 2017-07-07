@@ -1,22 +1,54 @@
 
 @import url('https://fonts.googleapis.com/css?family=Raleway|Slabo+27px|Ubuntu');
 
-
-body, h1 {
-	color: #FF530D;
-	text-align: center;
-	background: "images/emberhelp.jpg";
-	font-family: 'Ubuntu';
+* {
+	padding: 10;
+	margin: 10;
 }
 
-p{
+header {
+	background-color: #e95223;
+	padding: 20px;
+}
+
+nav a {
+	color: inherit;
+	text-decoration: none;
+	color: #E5E5DD;
+	margin-right: 15px;
+}
+
+a {
+
+}
+
+body, h1 {
+	color: #e95223;
+	text-align: center;
+	background-color: #E5E5DD;
+	font-family: Arial;
+}
+
+main, section {
+	font-family: Arial;
+	padding: 10px;
+}
+
+p {
 	text-align: left;
-	font-family: 'Slabo';
+	font-family: 'Raleway', Arial, sans-serif;
 }
 
 ul {
     text-align: left;
-    font-family: 'Slabo';
+    font-family: 'Raleway';	
+}
+
+footer {
+	background-color: #e95223;
+	color: #E5E5DD;
+	padding: 10px;
+	text-align: center;
 }
 
 #slogan {
@@ -26,5 +58,5 @@ ul {
 }
 
 img {
-	width: 70%;
+	width: 100%;
 }
