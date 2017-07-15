@@ -1,0 +1,115 @@
+ 
+@import url('https://fonts.googleapis.com/css?family=Raleway|Slabo+27px|Ubuntu');
+
+* {
+	padding: 10;
+	margin: 10;
+}
+
+header {
+	/*background-color: #e95223;
+	padding: 20px;*/
+    background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+nav a {
+	/*color: inherit;
+	text-decoration: none;
+	color: #E5E5DD;
+	margin: 1em;
+	text-decoration: none;*/
+    background-color: #E8C66A;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+a {
+	color: black;
+}
+
+body, h1 {
+	/*color: #e95223;
+	text-align: center;
+	background-color: #E5E5DD;
+	font-family: Arial;
+	font-size: 16px; /*1em=16px*/*/
+    background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+main, section {
+	/*font-family: Arial;
+	padding: 1em;*/
+    background-color: #E89C6C;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+p {
+	text-align: left;
+	font-family: 'Raleway', Arial, sans-serif;
+	line-height: 1.5em;
+}
+
+ul {
+    text-align: left;
+    font-family: 'Raleway';	
+}
+
+footer {
+	/*background-color: #e95223;
+	color: #E5E5DD;
+	padding: 1em;
+	text-align: center;*/
+    background-color: #FF957E;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+.mainlinks {
+	text-decoration: none;
+	border-bottom: 1px solid black;
+}
+
+#slogan {
+	font-style: italic;
+	text-align: center;
+	font-family: 'Ubuntu';
+}
+
+#two_column {
+	background-color: #FFB7CF;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#left {
+	background-color: violet;
+	border: 1px black solid;
+	padding: 20px;
+	float: left;
+	width: 30%;
+}
+
+#right {
+	background-color: pink;
+	border: 1px black solid;
+	padding: 20px;
+	float: right;
+	width: 50%;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+img {
+	width: 80%;
+}
