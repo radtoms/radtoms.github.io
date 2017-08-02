@@ -10,13 +10,11 @@ header {
 	font-family: 'Raleway';
 	background-color: #e95223;
 	padding: 20px;
-/*	border: 1px black solid;*/
 	color: #E5E5DD;
 }
 
 header a {
-/*	border: 1px black solid;
-*/	text-decoration: none;
+	text-decoration: none;
 	color: #E5E5DD
 }
 
@@ -34,17 +32,14 @@ body {
 	font-family: Arial;
 	max-width: 1400px;
 	margin: auto;
-	/*border: 1px black solid;*/
 }
 
 main, section {
 	font-family: Arial;
 	padding: 1px;
-/*	border: 1px black solid;*/
 }
 
 p {
-	/*text-align: left;*/
 	font-family: 'Raleway', Arial, sans-serif;
 }
 
@@ -61,7 +56,6 @@ footer {
 }
 
 article	{
-	/*border: 1px black solid;*/
 	float: left;
 	margin: auto;
 }
@@ -102,7 +96,6 @@ article a {
 	font-style: italic;
 	text-align: center;
 	font-family: 'Ubuntu';
-	/*border: 1px black solid;*/
 	color: #E5E5DD;
 }
 
@@ -112,36 +105,7 @@ article a {
 	border: 1px black solid;
 }
 
-/*.articlelinks {
-	border: 1px black solid;
-}
-/*
-#left {
-	background-color: violet;
-	border: 1px black solid;
-	padding: 20px;
-	float: left;
-	width: 20%;
-}
-
-#middle {
-	background-color: cyan;
-	border: 1px black solid;
-	padding: 20px;
-	float: left;
-	width: 20%;
-}
-
-#right {
-	background-color: pink;
-	border: 1px black solid;
-	padding: 20px;
-	float: left;
-	width: 20%;
-}*/
-
 #pop_questions {
-	/*border: 1px blue solid;*/
 	text-align: left;
 }
 
@@ -182,11 +146,8 @@ img {
 	.three_column {
 		background-color: inherit;
 		width: 100%;
-	/*	padding: 20px;*/
 		border: 1px black solid;
 		font-size: 1.5em;
 }
-	section {
-	/*	font-size: 1.5em;*/
-	}
+
 }
