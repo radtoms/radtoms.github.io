@@ -10,29 +10,37 @@ header {
 	font-family: 'Raleway';
 	background-color: #e95223;
 	padding: 20px;
-	border: 1px black solid;
+/*	border: 1px black solid;*/
 	color: #E5E5DD;
 }
 
 header a {
-	border: 1px black solid;
-	text-decoration: none;
-	border: 1px black solid;
+/*	border: 1px black solid;
+*/	text-decoration: none;
 	color: #E5E5DD
 }
 
-body, h1 {
+h1 {
+	padding: 3em 3em 0 3em;
+	color: #E5E5DD;
+	font-size: 2em;
+	margin: 0;
+}
+
+body {
 	color: #e95223;
 	text-align: center;
 	background-color: #E5E5DD;
 	font-family: Arial;
-	border: 1px black solid;
+	max-width: 1400px;
+	margin: auto;
+	/*border: 1px black solid;*/
 }
 
 main, section {
 	font-family: Arial;
 	padding: 1px;
-	border: 1px black solid;
+/*	border: 1px black solid;*/
 }
 
 p {
@@ -53,7 +61,7 @@ footer {
 }
 
 article	{
-	border: 1px black solid;
+	/*border: 1px black solid;*/
 	float: left;
 	margin: auto;
 }
@@ -61,6 +69,14 @@ article	{
 article a {
 	text-decoration: none;
 }
+
+.hero_img {
+	background-image: url(../images/emberhelp.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding-bottom: 200px;
+}
+
 .ember_header {
 	font-family: Arial;
 	color: inherit;
@@ -70,7 +86,15 @@ article a {
 	box-sizing: border-box;
 }
 
-.header2 {
+.headers {
+	font-size: 2em;
+}
+
+#header1 {
+	float: left;
+}
+
+#header2 {
 	float: right;
 }
 
@@ -78,16 +102,20 @@ article a {
 	font-style: italic;
 	text-align: center;
 	font-family: 'Ubuntu';
+	/*border: 1px black solid;*/
+	color: #E5E5DD;
+}
+
+.three_column {
+	background-color: inherit;
+	width: 33%;
 	border: 1px black solid;
 }
 
-#three_column {
-	background-color: #FFB7CF;
-	border: 2px green solid;
-	width: 100%
-	margin: auto;
+/*.articlelinks {
+	border: 1px black solid;
 }
-
+/*
 #left {
 	background-color: violet;
 	border: 1px black solid;
@@ -110,10 +138,10 @@ article a {
 	padding: 20px;
 	float: left;
 	width: 20%;
-}
+}*/
 
 #pop_questions {
-	border: 1px blue solid;
+	/*border: 1px blue solid;*/
 	text-align: left;
 }
 
@@ -137,4 +165,28 @@ article a {
 
 img {
 	width: 100%;
+}
+
+
+
+@media screen and (max-width: 800px){
+	.headers {
+		font-size: 1.8em;
+}
+}
+
+@media screen and (max-width: 600px){
+	.headers {
+		font-size: 1.5em;
+}
+	.three_column {
+		background-color: inherit;
+		width: 100%;
+	/*	padding: 20px;*/
+		border: 1px black solid;
+		font-size: 1.5em;
+}
+	section {
+	/*	font-size: 1.5em;*/
+	}
 }

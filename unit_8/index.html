@@ -8,48 +8,54 @@
 </head>
 
 <body>
-	<header>
-<!-- 	how do i center this??
- -->		<a href="#">Ember</a>
-		<a href class="header2" ="#">Contact Us</a>
+	<header class="headers">
+		<div class="clearfix">
+			<a id="header1" href="#">Ember</a>
+			<a id="header2" href="#">Contact Us</a>
+		</div>
 	</header>
 
 	<section>
-		<h1>Help Bar</h1>
-		<p id="slogan">Where the science of temperature 	meets the art of support.</p>
-		<p id="slogan">Need help? Try starting here...</p>
-		<img src="images/emberhelp.png" alt="Giving an Ember Mug" title="Giving an Ember">
+		<div class="hero_img">
+			<h1>Help Bar</h1>
+			<p id="slogan">Where the science of temperature 	meets the art of support.</p>
+			<p id="slogan">Need help? Try starting here...</p>
+			
+		</div>	
 	</section>
 
 	<main>
-		<section id="three_column" class="clearfix">
-<!-- 		how do i center these sections??
- -->			<article id="left">
-				<p>Getting Started</p>
-				<ul>
-					<li><a class="articlelinks" href="#">Article 1</a></li>
-					<li><a class="articlelinks" href="#">Article 2</a></li>
-					<li><a class="articlelinks" href="#">Article 3</a></li>
-				</ul>
-			</article>
-			<article id="middle">
-				<p>FAQ</p>
-				<ul>
-					<li><a class="articlelinks" href="#">Article 1</a></li>
-					<li><a class="articlelinks" href="#">Article 2</a></li>
-					<li><a class="articlelinks" href="#">Article 3</a></li>
-				</ul>
-			</article>	
-			<article id="right">
-				<p>Troubleshooting</p>
-				<ul>
-					<li><a class="articlelinks" href="#">Article 1</a></li>
-					<li><a class="articlelinks" href="#">Article 2</a></li>
-					<li><a class="articlelinks" href="#">Article 3</a></li>
-				</ul>
-
-			</article>		
-		</section>	
+		<div class="clearfix">
+			<div class="three_colum">
+				<section>
+		<!-- 		how do i center these sections??
+		 -->		<article class="three_column">
+						<p>Getting Started</p>
+						<ul>
+							<li><a class="articlelinks" href="#">Article 1</a></li>
+							<li><a class="articlelinks" href="#">Article 2</a></li>
+							<li><a class="articlelinks" href="#">Article 3</a></li>
+						</ul>
+					</article>
+					<article class="three_column">
+						<p>FAQ</p>
+						<ul>
+							<li><a class="articlelinks" href="#">Article 1</a></li>
+							<li><a class="articlelinks" href="#">Article 2</a></li>
+							<li><a class="articlelinks" href="#">Article 3</a></li>
+						</ul>
+					</article>	
+					<article class="three_column">
+						<p>Troubleshooting</p>
+						<ul>
+							<li><a class="articlelinks" href="#">Article 1</a></li>
+							<li><a class="articlelinks" href="#">Article 2</a></li>
+							<li><a class="articlelinks" href="#">Article 3</a></li>
+						</ul>
+					</article>		
+				</section>	
+			</div>
+		</div>
 	</main>
 
 	<section>
@@ -68,7 +74,8 @@
 	</footer>
 
 	<footer id="footer_2">
-		<p>Fine print fine print fine print
+		<p>This is where the finest print goes
+		
 		</p>
 	</footer>
 
